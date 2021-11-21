@@ -13,6 +13,25 @@
             font-weight: bold;
             color: #414266;
         }
+        
+        .fruit_table {
+            margin: 30px;
+            width: 50%;
+            text-align: left;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        
+        .fruit_table th {
+            padding: 10px;
+            background: #e9faf9;
+            border: solid 1px #778ca3;
+        }
+        
+        .fruit_table td {
+            padding: 10px;
+            border: solid 1px #778ca3;
+        }
     </style>
 
     <script>
@@ -30,6 +49,17 @@
     </p>
     <button onclick="clickHandler()">JS</button>
     <div id="box"></div>
+
+    <table class="fruit_table">
+        <tr>
+            <th>りんご</th>
+            <td>50円</td>
+        </tr>
+        <tr>
+            <th>バナナ</th>
+            <td>100円</td>
+        </tr>
+    </table>
 </body>
 
 </html>
