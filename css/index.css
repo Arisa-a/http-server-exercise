@@ -1,0 +1,27 @@
+h1 {
+            color: #a0e8ee;
+        }
+        
+        p {
+            font-weight: bold;
+            color: #414266;
+        }
+        
+        .fruit_table {
+            margin: 30px;
+            width: 50%;
+            text-align: left;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        
+        .fruit_table th {
+            padding: 10px;
+            background: #e9faf9;
+            border: solid 1px #778ca3;
+        }
+        
+        .fruit_table td {
+            padding: 10px;
+            border: solid 1px #778ca3;
+        }
